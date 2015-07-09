@@ -1,9 +1,10 @@
 {
   "name": "gulp-gdo",
   "version": "0.0.1",
-  "description": "Rename files",
+  "description": "It would return two objects to callback,one is file object,the other is path object.You can process file stream by yourself.",
   "keywords": [
-    "gulpplugin"
+    "gulpplugin",
+    "gdo"
   ],
   "homepage": "https://github.com/shijinyu/gulp-gdo",
   "bugs": {
@@ -14,10 +15,15 @@
     "email": "sjym90@gmail.com",
     "url": "https://github.com/shijinyu"
   },
+  "bin":[],
   "main": "./index.js",
   "files": [
     "index.js"
   ],
+  "dependencies":{
+    "gulp-util": "^3.0.6",
+    "through2": "^1.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/shijinyu/gulp-gdo.git"
