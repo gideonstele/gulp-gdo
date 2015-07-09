@@ -2,7 +2,7 @@
 gulp 插件，在回调中传入file流对象，可做任意修改
 # gulp-gdo
 
-gulp-gdo is a [gulp](https://github.com/shijinyu/gulp-gdo) plugin to make easily.
+gulp-gdo is a [gulp](https://github.com/shijinyu/gulp-gdo) plugin to process file and path easily.
 ## Usage
 
 gulp-gdo 将file和path返回到回调函数中，可以在回调函数中操作file对象并送入下一个管道（pipe）
